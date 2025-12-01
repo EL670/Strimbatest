@@ -117,3 +117,25 @@ footer p{
   vertical-align: middle;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+.flexxy {
+  display: flex;
+  background: #yellow;
+  
+}
+
+.flexxy img {
+  width: 200px;
+}
+
+.flexxy p{
+  text-align: left;
+}
+
+.flexxy:nth-child(1) {
+  align-content: left;
+}
+.flexxy:nth-child(2) {
+  text-align: center;
+  margin:20px auto;
+}
