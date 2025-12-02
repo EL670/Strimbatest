@@ -21,15 +21,15 @@ h1{
 }
 p {
   font-family:Georgia, 'Times New Roman', Times, serif;
-  margin-left:100px;
+  margin-left:10px;
 }
 h2{
   display:block;
 }
 
 .divnew { 
-
   clear:both;
+  text-align: center;
  
 }
 header {
@@ -120,8 +120,19 @@ footer p{
 
 .flexxy {
   display: flex;
-  background: #yellow;
-  
+  width:100%;
+  background-color: wheat;
+  padding: 0px 0px 0px 0px;
+  justify-content: space-between;
+}
+
+.quoteblock {
+  display:inline-block;
+  background-color: none;
+  width:500px;
+  text-align:center;
+  align-self: center;
+  font-style: italic;
 }
 
 .flexxy img {
@@ -132,10 +143,17 @@ footer p{
   text-align: left;
 }
 
-.flexxy:nth-child(1) {
-  align-content: left;
+.flexxy quote {
+  text-align: center;
 }
+/* .flexxy:nth-child(1) {
+  align-content: center;
+} */
+/* 
 .flexxy:nth-child(2) {
   text-align: center;
-  margin:20px auto;
-}
+  padding:10px 0px;
+} */
+ h1{
+ text-align: center;
+ }
